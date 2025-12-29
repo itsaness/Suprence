@@ -1,6 +1,6 @@
-# expense
+# Suprence
 
-This template should help get you started developing with Vue 3 in Vite.
+a web expense tracker that gives you useful insight about your budget. 
 
 ## Recommended IDE Setup
 
