@@ -19,7 +19,7 @@ let goToDashboard=()=>{
   </div>
   <div class="hero">
     <div class="hero-text">
-    <h1>With Expense
+    <h1>With Suprence
     <span id="hero-lose">never lose</span>
     track of your money !</h1>
     <button @click="goToDashboard();">START NOW !</button>
@@ -29,7 +29,7 @@ let goToDashboard=()=>{
   </div>
   <div class="footer">
     <div class="footer-header">
-      <h3>Expense</h3>
+      <h3>Suprence</h3>
     <img src="/social.png">
   </div>
   <div class="footer-menu">
@@ -38,7 +38,7 @@ let goToDashboard=()=>{
     <h3 :class="{footerLinkHover:isActiveLink('/')}"><RouterLink to="/about">About</RouterLink></h3>
     <h3 :class="{footerLinkHover:isActiveLink('/')}"><RouterLink to="/contact">Contact Us</RouterLink></h3>
     <div class="menu-border">
-      <h3>Use Expense Now</h3>
+      <h3>Use Suprence Now</h3>
       <button @click="goToDashboard();"> START NOW !</button>
     </div>
 

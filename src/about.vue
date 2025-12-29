@@ -19,14 +19,14 @@ let goToDashboard=()=>{
     <button @click="goToDashboard();">START NOW !</button>
   </div>
   <div class="about-hero">
-    <h1>About Expense</h1>
-    <p>Expense helps you track expenses, manage budgets, and understand your spending with ease.</p>
+    <h1>About Suprence</h1>
+    <p>Suprence helps you track expenses, manage budgets, and understand your spending with ease.</p>
       <p>We simplify personal finance through clear insights and smart tools to help you save more and spend wisely.</p> 
       <p>Take control of your money—anytime, anywhere.</p>
   </div>
   <div class="about-card-title">
-    <h2>What drives Expense?</h2>
-    <p>Expense is driven by the belief that managing money
+    <h2>What drives Suprence?</h2>
+    <p>Suprence is driven by the belief that managing money
     <span id="about-card-title-text">should be simple, insightful, and empowering</span></p>
   </div>
   <div class="about-cards">
@@ -66,7 +66,7 @@ let goToDashboard=()=>{
   </div>
   <div class="footer">
     <div class="footer-header">
-      <h3>Expense</h3>
+      <h3>Suprence</h3>
     <img src="/social.png">
   </div>
   <div class="footer-menu">
@@ -75,7 +75,7 @@ let goToDashboard=()=>{
     <h3 :class="{footerLink:isActiveLink('/about')}"><RouterLink to="/about">About</RouterLink></h3>
     <h3 :class="{footerLinkHover:isActiveLink('/about')}"><RouterLink to="/contact">Contact Us</RouterLink></h3>
     <div class="menu-border">
-      <h3>Use Expense Now</h3>
+      <h3>Use Suprence Now</h3>
       <button @click="goToDashboard();">START NOW !</button>
     </div>
 

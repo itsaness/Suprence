@@ -33,7 +33,7 @@ let goToDashboard=()=>{
   <div class="contact-faq">
      <h1>FAQ</h1>
      <div class="faq-list">
-        <div class="faq-item"><span id="faq-question" >What does this expense tracker do?</span><span v-if="switchQuestion==0" class="material-symbols-outlined" @click="enableQuestion(1)">add</span><span v-if="switchQuestion==1" class="material-symbols-outlined" @click="enableQuestion(0)">remove</span></div>
+        <div class="faq-item"><span id="faq-question" >What does Suprence do?</span><span v-if="switchQuestion==0" class="material-symbols-outlined" @click="enableQuestion(1)">add</span><span v-if="switchQuestion==1" class="material-symbols-outlined" @click="enableQuestion(0)">remove</span></div>
         <p v-if="switchQuestion==1">It helps you record your income, track your spending, and visualize where your money goes.</p>
         <div class="faq-item"><span id="faq-question" >Do I need to create an account?</span><span v-if="switchQuestion==0"  class="material-symbols-outlined" @click="enableQuestion(2)">add</span><span v-if="switchQuestion==2" class="material-symbols-outlined" @click="enableQuestion(0)">remove</span></div>
         <p v-if="switchQuestion==2">Nope! You can start tracking immediately. Your data stays local unless you choose to save it somewhere else.</p>
@@ -47,7 +47,7 @@ let goToDashboard=()=>{
   </div>
   <div class="footer">
     <div class="footer-header">
-      <h3>Expense</h3>
+      <h3>Suprence</h3>
     <img src="/social.png">
   </div>
   <div class="footer-menu">
@@ -56,7 +56,7 @@ let goToDashboard=()=>{
     <h3 :class="{footerLinkHover:isActiveLink('/contact')}"><RouterLink to="/about">About</RouterLink></h3>
     <h3 :class="{footerLink:isActiveLink('/contact')}"><RouterLink to="/contact">Contact Us</RouterLink></h3>
     <div class="menu-border">
-      <h3>Use Expense Now</h3>
+      <h3>Use Suprence Now</h3>
       <button @click="goToDashboard();">START NOW !</button>
     </div>
 

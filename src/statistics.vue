@@ -168,7 +168,7 @@ let isActiveLink=(routePath)=>{
     </div>
     <div v-if="isMenu" class="menu">
     <div class="menu-nav">
-    <h3>Expense</h3>
+    <h3>Suprence</h3>
     <button @click="goToMenu"><span id="menu-icon" class="material-symbols-outlined">close</span></button>
 </div>
      <div class="menu-links">
